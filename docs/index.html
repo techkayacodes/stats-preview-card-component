@@ -6,6 +6,8 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
+  <link rel="stylesheet" href="styles.css">
+  
   <title>Frontend Mentor | Stats preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,19 +17,46 @@
   </style>
 </head>
 <body>
+  <div class="full-page-container">
+    <div class="container">
+      <div class="mini-container">
+        <h1>Get <span class="purple-word">insights</span> that help your business grow.</h1>
 
-  Get insights that help your business grow.
+        <p class="info-text">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+        experience, and overall efficiency.</p>
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+        <div class="column-texts-outer">
+          <div class="column-texts-inner">
+            <div class="stats">
+              <div class="stats1">
+                <p class="bold-stat1 stats1">10k+</p>
+                <p class="stats1" id="small-text">companies</p>
+              </div>
+              <div class="stats2">
+                <p class="bold-stat2 stats2">314</p>
+                <p class="stats2" id="small-text">templates</p>
+              </div>
+              <div class="stats3">
+                <p class="bold-stat3 stats3">12m+</p>
+                <p class="stats3" id="small-text">queries</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Div end of Column Stats-->
+      </div>
+      <!-- Div end of mini container containing info elements-->
+      <div class="image-container">
+        <img src="/images/image-header-desktop.jpg" title="purple-image" class="purple-image" alt="image-header-desktop">
+      </div>
+      <!-- Div end of image container-->
+    </div>
+    <!-- Div end of container with elements for stats card-->
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+    <!-- Div end of attribution credits-->
   </div>
 </body>
 </html>
